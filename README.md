@@ -42,3 +42,9 @@ ShopifyApi::addProduct($data)
 SHOPIFY_API_TOKEN=***
 SHOPIFY_STORE=***@***
 ```
+Config/app.php providers
+```
+...   
+Webdawe\Shopify\Providers\ShopifyServiceProvider::class,
+...
+```
