@@ -37,3 +37,8 @@ class ProductApiController extends Controller
 ```
 ShopifyApi::addProduct($data)
 ```
+.env 
+```
+SHOPIFY_API_TOKEN=***
+SHOPIFY_STORE=***@***
+```
