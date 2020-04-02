@@ -3,7 +3,7 @@
  * @category    Webdawe
  * @package     Webdawe_Shopify
  * @author      Anil Paul
- * @copyright   Copyright (c) 2019 Adore Beauty.
+ * @copyright   Copyright (c) 2019 Webdawe.
  * @license
  */
 

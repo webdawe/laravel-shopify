@@ -1,0 +1,31 @@
+{
+    "name": "webdawe/shopify",
+    "description": "Shopify Client",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "authors": [
+        {
+            "name": "Anil Paul",
+            "homepage": "https://webdawe.com.au",
+            "email": "webdeveloper363@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webdawe\\Shopify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webdawe\\Shopify\\Providers\\ShopifyServiceProvider"
+            ],
+            "aliases": {
+                "ShopifyApi": "Webdawe\\Shopify\\Facades\\ShopifyApi"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
